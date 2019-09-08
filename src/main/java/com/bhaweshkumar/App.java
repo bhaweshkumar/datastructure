@@ -9,7 +9,9 @@ public class App {
     public static void main(String[] args) {
         LinkedList<String> simpleList = new LinkedList<>();
         simpleList.addLast("Bhawesh");
-        simpleList.addLast("kumar");
+        simpleList.addLast("Brikesh");
+        simpleList.addLast("Rajnish");
+        simpleList.addLast("Amit");
         simpleList.printNodes();
     }
 }

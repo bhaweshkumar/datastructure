@@ -1,19 +1,11 @@
 package com.bhaweshkumar.list;
 
 import com.bhaweshkumar.list.model.Node;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class LinkedList<T> {
     private static int counter;
-    private Node<T> head = null;
-    private Node<T> tail = null;
+    private Node<T> head;
+    private Node<T> tail;
 
     /**
      * Adds to the end of linked list
